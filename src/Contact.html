@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <style>
+        .bg {
+            background-image: url("./img/background\ copy.png");
+            width: 100%;
+            height: 586px;
+            background-size: cover;
+        }
+    </style>
+    <div class="bg">
+        <div class="w-[90%] m-auto flex justify-between items-center py-5">
+            <div class="flex items-center gap-[200px] lg:gap-10">
+                <div>
+                    <img src="./img/logo (2).png" alt="" />
+                </div>
+                <div class="flex gap-3 text-gray-400 sm:gap-5">
+                    <p>
+                        <select class="bg-[#1E212C] hover:text-white  outline-none" name="" id="pageSelector"
+                            onchange="navigateToPage()">
+                            <div class="" disabled selected>
+                                <p style="font-size: 18px; font-weight: bold">Carrers</p>
+                            </div>
+                            <p class="">Homepage</p>
+                            <p class="">Services</p>
+                            <p class="">Service</p>
+                            <p class="">Case Studies</p>
+                            <p class="">Case Study</p>
+                            <p class="">About us</p>
+                            <p class="">Careers</p>
+                            <p class="">Blog</p>
+                            <p class="">Single Post</p>
+                            <p class="">Contacts</p>
+                        </select>
+                    </p>
+                    <p class="hidden  hover:text-white md:block">
+                        <a href="">Case Studies</a>
+                    </p>
+                    <p class="hidden  hover:text-white md:block">
+                        <a href="">About Us</a>
+                    </p>
+                    <p class="hidden  hover:text-white md:block">
+                        <a href="">Blog</a>
+                    </p>
+                    <p class="hidden  hover:text-white md:block">
+                        <a href="">Contacts</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button
+                    class="w-full md:ml-0 ml-3 sm:w-auto md:py-3 py-1 md:px-8 px-3 md:text-[16px] text-[12px] bg-[#7772F1] hidden md:block rounded-md text-white">
+                    Talk to a human
+                </button>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <div class="flex items-center gap-2 py-10 text-gray-400">
+                <div>
+                    <img src="./img/Home.png" alt="" />
+                </div>
+                <p>></p>
+                <p>Careers at Createx Agency</p>
+            </div>
+            <h1 class="text-[30px] lg:text-[72px] text-white font-bold">Contact</h1>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center w-[80%] mx-auto text-white">
+            <div class="w-full md:w-[30%] flex items-center gap-4 justify-center md:justify-start">
+                <div>
+                    <img src="./img/outline.png" alt="" />
+                </div>
+                <div>
+                    <p class="text-gray-400">Visit us</p>
+                    <p>2464 Royal Ln. Mesa, New Jersey 45463, USA</p>
+                    <p><span class="text-blue-400">See on the map</span></p>
+                </div>
+            </div>
+            <div class="w-full md:w-[30%] flex items-center gap-4 justify-center">
+                <div>
+                    <img src="./img/iPhone.png" alt="" />
+                </div>
+                <div>
+                    <p class="text-gray-400">Call us</p>
+                    <p>(405) 555-0128</p>
+                    <p>(603) 555-0123</p>
+                </div>
+            </div>
+            <div class="w-full md:w-[30%] flex items-center gap-4 justify-center md:justify-end">
+                <div>
+                    <img src="./img/Chat.png" alt="" />
+                </div>
+                <div>
+                    <p class="text-gray-400">Talk to us</p>
+                    <p>hello@createx.com</p>
+                </div>
+            </div>
+            <div class="w-full md:w-[30%] flex items-center gap-4 justify-center md:justify-end">
+                <div>
+                    <img src="./img/outline (2).png" alt="" />
+                </div>
+                <div>
+                    <p class="text-gray-400">Working Hours</p>
+                    <p>Mon-Fri: 9 am — 6 pm</p>
+                    <p>Sat-Sun: days off</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="py-28 w-[85%] m-auto flex flex-col lg:flex-row justify-between items-center lg:items-start">
+            <div class="max-w-5xl mx-auto p-8 lg:w-[60%]">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">Ready to get started?</h2>
+                <p class="py-3">Services</p>
+                <div class="flex flex-wrap justify-center gap-4 mb-6">
+                    <button class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md">Social Media</button>
+                    <button class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md">SEO</button>
+                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">Research</button>
+                    <button class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md">Content & PR</button>
+                    <button class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md">Payed Traffic</button>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">First Name*</label>
+                        <input type="text" placeholder="Your first name"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Last Name*</label>
+                        <input type="text" placeholder="Your last name"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Email*</label>
+                        <input type="email" placeholder="Your working email"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Phone*</label>
+                        <input type="tel" placeholder="Your phone number"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Company</label>
+                        <input type="text" placeholder="Your company name"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Position</label>
+                        <input type="text" placeholder="Your position"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <label class="block text-sm font-medium text-gray-700">Additional Details</label>
+                    <textarea rows="4" placeholder="Your message"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                </div>
+                <div class="flex flex-wrap gap-4 items-center mb-6">
+                    <div class="flex items-center">
+                        <input type="checkbox" id="agree" class="mr-2">
+                        <label for="agree" class="text-sm text-gray-600">I agree to receive communications from Creatx
+                            SEO Agency</label>
+                    </div>
+                    <div class="text-center w-full sm:w-auto">
+                        <button type="submit"
+                            class="w-full sm:w-auto px-8 py-3 bg-indigo-500 text-white rounded-md hover:bg-indigo-600">Request
+                            a proposal</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 lg:mt-0 lg:w-[35%] flex justify-center">
+                <img src="./img/Illustration.png" alt="Illustration" class="w-full max-w-sm">
+            </div>
+        </div>
+    </div>
+    <div class="w-full md:h-[508px] h-auto bg-gray-900 -mt-[100px]">
+        <div
+            class="md:w-[95%] w-[90%] m-auto py-16 flex flex-wrap lg:flex-nowrap justify-between gap-[40px] text-gray-400">
+            <div>
+                <div>
+                    <img src="./image/logo (23).png" alt="" />
+                </div>
+                <p class="text-gray-400 py-7">
+                    Createx SEO Agency is a full-service digital marketing <br class="hidden md:block"> agency.
+                    We help businesses make more money <br class="hidden md:block"> through a wealth of performance
+                    data and market <br class="hidden md:block"> research. We create science-based SEO strategies <br
+                        class="hidden md:block">
+                    to empower our clients.
+                </p>
+                <div class="flex gap-4 py-3">
+                    <div>
+                        <img src="./image/Facebook (1).png" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/Linked-In.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/Twitter.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/Instagram (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="py-4 md:py-0">
+                <div>
+                    <p class="text-white">COMPANY</p>
+                    <p class="py-2">About Us</p>
+                    <p class="py-2">Case Studies</p>
+                    <p class="py-2">Blog</p>
+                    <p class="py-2">Careers</p>
+                    <p class="py-2">Contacts</p>
+                </div>
+            </div>
+            <div class="py-4 md:py-0">
+                <div>
+                    <p class="text-white">SERVICES</p>
+                    <p class="py-2">Social Media</p>
+                    <p class="py-2">SEO</p>
+                    <p class="py-2">Research</p>
+                    <p class="py-2">Content & PR</p>
+                    <p class="py-2">Payed Traffic</p>
+                </div>
+            </div>
+            <div class="py-4 md:py-0">
+                <div>
+                    <p class="text-white">CONTACT US</p>
+                    <p class="py-2"><img class="inline-block" src="./img/iPhonem.png" alt=""> (405) 555-0128</p>
+                    <p class="py-2"><img class="inline-block" src="./img/Mailm.png" alt=""> hello@createx.com</p>
+                </div>
+            </div>
+            <div class="py-5 md:py-0">
+                <h3 class="text-white">SIGN UP TO OUR NEWSLETTER</h3>
+                <div class="w-[280px] my-4 bg-[#1e212c] px-2 rounded-lg">
+                    <input class="w-[230px] bg-[#1e212c] py-2 outline-none" type="text">
+                    <img class="inline-block" src="./image/Right.png" alt="">
+                </div>
+                <p class="text-[10px]">*Subscribe to our newsletter to receive communications and early <br> updates
+                    from Createx SEO Agency.</p>
+            </div>
+        </div>
+        <div class="border-t-2 border-gray-800">
+            <div class="md:w-[75%] w-[90%] m-auto flex flex-wrap justify-between py-[20px]">
+                <div class="flex flex-wrap justify-center gap-7 lg:justify-start">
+                    <div>
+                        <img src="./image/award (1).png" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/award (2).png" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/award (3).png" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/award (4).png" alt="">
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 mt-6 ml-20 lg:mt-0 lg:ml-0">
+                    <p class="text-white">GO TO TOP</p>
+                    <button class="py-4 px-4 bg-[#7772F1] rounded-md"><img src="./image/Up-chevron.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 bg-[#1e212c]">
+            <div class="md:w-[75%] w-[90%] m-auto text-white">
+                <p class="md:text-[16px] text-[10px] md:text-start text-center">© All rights reserved.Made with <img
+                        class="inline-block px-1" src="./img/Heartm.png" alt="">by Createx Studio </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
